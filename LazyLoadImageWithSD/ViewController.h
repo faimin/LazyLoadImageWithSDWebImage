@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,UIScrollViewDelegate>
 
+@property(nonatomic,strong)UITableView *tableView;
+@property(nonatomic,strong)NSArray *data;
 
 @end
 
