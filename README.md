@@ -40,7 +40,7 @@
                                     cell.imageView.image = image;
                                 });
                                 ///缓存图片
-                                [[SDImageCache sharedImageCache]storeImage:image recalculateFromImage:NO imageData:data forKey:imageString toDisk:YES];
+                                [[SDImageCache sharedImageCache] storeImage:image recalculateFromImage:NO imageData:data forKey:imageString toDisk:YES];
                             }
                         }];
                     });
