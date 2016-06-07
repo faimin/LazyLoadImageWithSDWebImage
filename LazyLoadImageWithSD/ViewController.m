@@ -6,6 +6,7 @@
 //  Copyright (c) 2014年 Fate.D.Saber. All rights reserved.
 //
 //  官方懒加载的Demo : https://developer.apple.com/library/ios/samplecode/LazyTableImages/Introduction/Intro.html#//apple_ref/doc/uid/DTS40009394
+//  利用runloopObserver的一种实现方式： https://github.com/diwu/RunLoopWorkDistribution  
 
 #import "ViewController.h"
 #import "SDImageCache.h"
