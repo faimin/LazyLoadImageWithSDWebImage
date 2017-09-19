@@ -1,10 +1,15 @@
 # LazyLoadImageWithSDWebImage
-###参考苹果官方懒加载的[Sample Code](https://developer.apple.com/library/ios/samplecode/LazyTableImages/Introduction/Intro.html#//apple_ref/doc/uid/DTS40009394)，利用`SDWebImage` lib 中`SDWebImageDownloader`和`SDImageCach`两个类实现图片的缓存和下载
-----
->* 此所谓懒加载是当滑动视图（比如`UITableView`）滚动太快时图片暂不加载，只有滑动停止后，才加载，而且只加载当前可视界面中的图片
+
+参考苹果官方懒加载的[Sample Code](https://developer.apple.com/library/ios/samplecode/LazyTableImages/Introduction/Intro.html#//apple_ref/doc/uid/DTS40009394)，利用`SDWebImage` lib 中`SDWebImageDownloader`和`SDImageCach`两个类实现图片的缓存和下载
 
 ----
-####主要代码如下:
+
+ 参考苹果官方懒加载的[Sample Code](https://developer.apple.com/library/ios/samplecode/LazyTableImages/Introduction/Intro.html#//apple_ref/doc/uid/DTS40009394)，利用`SDWebImage` lib 中`SDWebImageDownloader`和`SDImageCach`两个类实现图片的缓存和下载
+>* 此处懒加载是指当滑动视图（比如`UITableView`）滚动太快时图片暂不加载，只有滑动停止后才加载，而且只加载当前可视界面中的图片
+ 参考苹果官方懒加载的[Sample Code](https://developer.apple.com/library/ios/samplecode/LazyTableImages/Introduction/Intro.html#//apple_ref/doc/uid/DTS40009394)，利用`SDWebImage` lib 中`SDWebImageDownloader`和`SDImageCach`两个类实现图片的缓存和下载
+
+----
+#### 主要代码如下:
 ```objc
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
